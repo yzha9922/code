@@ -1,14 +1,13 @@
 # code
-from microbit import *
-import neopixel
-import music
+    from microbit import *
+    import neopixel
+    import music
 
-notes = [
-    'c4#', 'g#', 'c5#', 'b4', 'g#', 'e5', 'c4#', 'b4', 'c5#', 'g4#', 'e5', 'b4', 'c5#', 'g4#'
-]
+    notes = [
+    'c4#', 'g#', 'c5#', 'b4', 'g#', 'e5', 'c4#', 'b4', 'c5#', 'g4#', 'e5', 'b4', 'c5#', 'g4#']
 
 
-if __name__ == '__main__':
+    if __name__ == '__main__':
     display.show(Image.YES)
     sleep(500)
 
